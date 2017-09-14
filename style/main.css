@@ -62,3 +62,28 @@ article {
         width: 50%;
     }
 }
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    article {
+        width: 33.3%;
+    }
+    
+    header {
+        height: 400px;
+    }
+    
+    section {
+        height: 200px;
+        order: 1;
+    }
+    
+    main {
+    order: 2;
+    }
+}
