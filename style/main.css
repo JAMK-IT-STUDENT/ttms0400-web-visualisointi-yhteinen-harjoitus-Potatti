@@ -15,3 +15,37 @@ header, section, main, nav, article {
     padding: 15px;
     text-align: center;
 }
+
+nav {
+    background-color: #1d6ea0;
+}
+
+header {
+    background-color: paleturquoise;
+}
+
+main {
+    background-color: #eaeaea;
+}
+
+section {
+    background-color: azure;
+}
+
+article {
+    background-color: mediumpurple;
+}
+
+/* Background colors */
+
+.bg-yellow {
+    background-color: #ffd486;
+}
+
+.bg-red {
+    background-color: #efaeae;
+}
+
+.bg-purple {
+    background-color: #d2b6e8;
+}
