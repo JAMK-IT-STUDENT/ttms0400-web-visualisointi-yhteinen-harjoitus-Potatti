@@ -36,7 +36,10 @@ img {
     margin-left: 5px;
 }
 
-#headerimg {width: 100%;}
+#headerimg {
+    width: 100%;
+    margin: 0;
+}
 
 ul li {
     display: inline-block;
@@ -45,6 +48,14 @@ ul li {
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+    section, article {
+        width: 50%;
+        padding:5px;
+    }
+    
+    img {
+    object-fit: cover;
+    }
 }
 
 /* Desktop Styles */
