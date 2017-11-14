@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nappula1 {
+  padding: 50px 50px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.nappula1:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  transition: all 0.3s ease 0s;
+  background-color: #FFF26F; 
+}
+.nappula1:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  transition: all 0.3s ease 0s;
+  background-color: #F0826F;
+}
+
+.nappula2 {
+  padding: 50px 50px;
+  font-size: 24px;
+  text-align: center;
+  color: yellow;
+  background-color: green;
+  border: solid red 10px;
+  cursor: pointer;
+  transition: all 1s ease 0s;
+}
+.nappula2:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+    color: red;
+    border: solid green 10px;
+    transition: all 1s ease 0s;
+    background-color: yellow; 
+}
+.nappula2:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+    color: green;
+    border: solid yellow 10px;
+    transition: all 1s ease 0s;
+    background-color: red;
+}
+
+
+.nappula3 {
+  padding: 50px 50px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+    background: linear-gradient(45deg,#911a98,#24d6d6,#851e8b);
+  background-size: 200% 200%;
+  cursor: pointer;
+    animation: gradient 10s ease infinite;
+}
+
+.nappula3:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+    background: linear-gradient(45deg,#462c48,#2ef51e,#d350db);
+    background-size:200% 200%;
+    animation: gradient 10s ease infinite;
+}
+.nappula3:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background: linear-gradient(45deg,#e02d2d,#8e0293,#0089ff);
+    background-size:200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  40% {
+    background-position: 100% 0;
+  }
+}
