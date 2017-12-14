@@ -3,8 +3,6 @@
 CSS/Frameworks: Bootstrap (full), Titan (framework), yahoo/pure (css) yui/yui3 (css) 
 Fluidui mockup: https://www.fluidui.com/editor/live/preview/cF9Ba21FVDgwem1hREFxSTdUU29Qb0VWOFB4UlBPRDV1VA==
 
-Harjoitus linkit:
-https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-Potatti/ linkki kollaasi
 
 Layout mediaqueryt: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-Potatti/Media_Query_Ex/index.html
 
