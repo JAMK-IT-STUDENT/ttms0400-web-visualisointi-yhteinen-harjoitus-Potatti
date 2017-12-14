@@ -14,5 +14,5 @@ Bootstrappiä: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhte
 Lisää Bootstrap: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-Potatti/Responsive_Design_Ex/index.html  
 
 
-Harkkatyö: https://potatti.github.io/  
+Harkkatyö: https://potatti.github.io/
 Raportti: https://github.com/Potatti/potatti.github.io/wiki/Harkkatyo-Raportti
